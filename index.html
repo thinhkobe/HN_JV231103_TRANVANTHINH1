@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Select Card</h1>
+      <div class="card-group">
+        <div >
+          <img
+            src="https://www.scb.com.vn/picture/the_ngan_hang_uu_dai_nhat_3_.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://cdn.vietnambiz.vn/171464876016439296/2020/4/28/photo-1588091838956-15880918391491425829669.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://www.msb.com.vn/documents/20121/0/the-visa-la-gi-1.png/ce594d21-22f5-cc1a-6c2b-3ca441a3520b?t=1661400392783"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://cdn.vietnambiz.vn/2020/2/12/gold-1581440733377993711227.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://d2jtqfgkm0oeyk.cloudfront.net/uploads/traditional-visa-card-benefits-1647932134.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="card-info">
+        <div class="card-info-item1">
+          <label for="" class="label">Card Number</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="1111 2222 3333 4444"
+            id="cardNumber"
+          />
+        </div>
+        <div class="card-info-item2">
+          <label for="" class="label">Expiry Date</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="MM/YY"
+            id="expiryDate"
+          />
+        </div>
+        <div class="card-info-item3">
+          <label for="" class="label">CVC/CVV</label>
+          <input type="text" class="input" placeholder="***" id="cvv" />
+        </div>
+      </div>
+      <button class="btn">Save</button>
+    </div>
+    <table class="table">
+      <thead>
+        <th>Card Img</th>
+        <th>Card Number</th>
+        <th>Epiry Date</th>
+        <th>CVV</th>
+        <th>Action</th>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          <td>img</td>
+          <td>123456789</td>
+          <td>03/09</td>
+          <td>CVV</td>
+          <td class="table-btn-group">
+            <button class="table-btn">View</button>
+            <button class="table-btn editBtn">Edit</button>
+            <button class="table-btn">Detele</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="./index.js"></script>
+  </body>
+</html>
